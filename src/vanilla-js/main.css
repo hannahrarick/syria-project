@@ -1,3 +1,4 @@
+/* Part of his CSS is from a template from Github. Link in JS file. */
   body {
         margin:0;
         padding:0;
@@ -5,7 +6,7 @@
         color: #000;
     }
     a, a:hover, a:visited {
-        color: #0071bc;
+        color: #ff7e26;
     }
     #map {
         top:0;
@@ -83,15 +84,26 @@
     }
 
     .caption {
-      background: #fff;
+      background: #E8E8E8;
       text-align: center;
       padding: .5rem;
       margin: none;
     }
+
 
     @media (max-width: 750px) {
         #features {
             width: 90vw;
             margin: 0 auto;
         }
+
+        #footer p {
+          padding-right: 2vh;
+          padding-left: 2vh;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
     }
